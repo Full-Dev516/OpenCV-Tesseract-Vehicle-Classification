@@ -14,7 +14,7 @@ from imutils.object_detection import non_max_suppression
 import numpy as np
 import time
 import cv2
-
+ 
 def crnn_predict(crnn, img, transformer, num_top_results=5):
     """
     Returns
