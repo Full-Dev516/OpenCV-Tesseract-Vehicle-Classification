@@ -41,7 +41,7 @@ def detect(
         nms_thres=0.45,
         webcam=True,
         camera_id=0
-):
+): 
     device = torch_utils.select_device()
     model = Darknet(cfg, img_size)
 
