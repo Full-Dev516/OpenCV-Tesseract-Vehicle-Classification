@@ -24,7 +24,7 @@ def get_string(img):
     cv2.imwrite(src_path + "thres.png", img)
     result = lpr.predict('output/thres.png')
     return result
-
+ 
 
 def detect(
         cfg,
