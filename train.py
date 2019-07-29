@@ -43,7 +43,7 @@ def train(
             optimizer.load_state_dict(checkpoint['optimizer'])
             best_loss = checkpoint['best_loss']
 
-        del checkpoint
+        del checkpoint 
 
     else:
         start_epoch = 0
