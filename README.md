@@ -16,5 +16,5 @@ Open the file main_lpr_RTSP.py and add the urls for all the cameras you want to 
 
 Run on RTSP `python3 main_lpr_RTSP.py --camera_id 0`
 
-## Results
+## Results 
 We'll add soon.
